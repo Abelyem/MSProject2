@@ -1,6 +1,5 @@
 
-
-function ************************************************************ randomDrink() {  
+function randomDrink() {  
 fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
 .then (response => {
 
@@ -19,3 +18,14 @@ fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
    howToMake.innerHTML = instructions;
 
 })} 
+
+XXXXXX.addEventListener('click', randomDrink)
+
+
+function colorChangeToRed() {
+  document.getElementById("topCocktails").style.backgroundColor = "red";
+}
+
+function ColorRevertToOriginal() {
+  document.getElementById("topCocktails").style.backgroundColor = "aqua";
+}
