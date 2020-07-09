@@ -1,10 +1,17 @@
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
     width: 100%;
     height: 300px;
     background-color: #D677D8;
     margin: 0 5px;
 }
+
+
+/* Grid container - 3 divs with cocktail information placed within this container */
 
 .container {
   display: grid;
@@ -14,11 +21,13 @@
   background-color: lightblue;
 }
 
+/* Divs within the grid container */
+
 .container > div {
   border: red solid 1px;
   padding: 10px;
   margin: 5px;
-  background-color: aqua;
+  background-color: white;
 }
 
 
@@ -26,3 +35,7 @@
 background-color: red;
 }
 
+.nested-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

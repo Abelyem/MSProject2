@@ -13,19 +13,22 @@
 
 <div class="header"> 
   <h1>Learn to make cocktails!</h1>
-   <button onclick="randomDrink()" id="drink-button">CLICK ME</button>
-
  </div>
+
+<button onclick="randomDrink()" id="drink-button">CLICK ME</button>
 
 <div class="container">
 
-<div class="topCocktails" id="drink-name">
+<div class="topCocktails" id="drink-name"><img src="assets/images/drink_loader.gif" alt="Loading random cocktail..."/>
 </div>
 
-<div class="topCocktails" id="drink-instructions">
+<div class="topCocktails" id="drink-instructions"><img src="assets/images/drink_loader.gif" alt="Loading random cocktail..."/>
 </div>
 
-<div class="topCocktails" id="ingredients">
+<div class="topCocktails nested-grid"> 
+<ul class="cocktail-ingredients" id="ingredients"><img src="assets/images/drink_loader.gif" alt="Loading random cocktail..."/></ul>
+<ul class="cocktail-measurements" id="measurements"></ul>
+
 </div>
 
 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquid delectus voluptatum. Nulla.</div> 
