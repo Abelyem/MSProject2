@@ -40,18 +40,18 @@ for (i = 0; i < AllIngredients.length; i++) {
  if (ingredientsRequired.innerHTML == null) {
      return ingredientsRequired.innerHTML = "";
  }  else {
-    ingredientsRequired.innerHTML = AllIngredients.join(`<br>`);
+    ingredientsRequired.innerHTML = AllIngredients.join("<br>");
  }
 }
 
 for (j = 0; j < AllMeasurements.length; j++) {
  if (measurementsRequired.innerHTML == null) {
-     return measurementsRequired.innerHTML = "";
+     return measurementsRequired.innerHTML = "".length < 1;
  }  else {
-    measurementsRequired.innerHTML = AllMeasurements.join(`<br>`);
+    measurementsRequired.innerHTML = AllMeasurements.join("<br>");
  }
 }
- 
+
 
 })} 
 
@@ -71,6 +71,5 @@ randomDrinkButton.addEventListener('click', randomDrink)
 // for (i = 0; i < cocktailsList.length; i++) {
 // cocktailsList[i].style.backgroundColor = "aqua";
 // }}
-
 
 
