@@ -7,7 +7,7 @@
 .header {
     width: 100%;
     height: 250px;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .header > h2 {
@@ -17,8 +17,19 @@
 .header-image {
     position: absolute;
     right: 15px;
-    top: 20px;
+    top: 60px;
     padding-bottom: 15px;
+}
+
+.btn {
+ background-color:#fff;
+ color:#c23891;
+ border: 1px #c23891 solid;
+}
+
+.btn:hover {
+    background-color:#ff49be;
+    color: #fff;
 }
 
 /* Random cocktail generator button */
@@ -26,7 +37,7 @@
 .button {
     display: flex;
     justify-content: center;
-    background-color: #ff49be;
+   /* background-color: #ff49be; */
     
 }
 
