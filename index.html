@@ -14,29 +14,40 @@
 <!-- Header section -->
 <section>
 
-<!-- Nav bar copied from Bootstrap -->
-<nav class="navbar navbar-light bg-light justify-content-between">
+<!-- Nav bar copied from Bootstrap (amendments made (change of colour/positioning)) -->
+<nav class="navbar navbar-light bg-light justify-content-center">
   <a class="navbar-brand">Search for, and prepare high quality cocktails to enjoy at home!</a>
   <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Enter cocktail here" aria-label="Search">
+   
+    <input class="form-control mr-sm-2" type="search" placeholder="Search for cocktails here" aria-label="Search" 
+    id="cocktailData" value="" oninput="fetchCocktailInformation()">
+
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
 </nav>
 
+<!-- Search results for cocktails searched within search bar (as shown above) -->
 
 <div class="header"> 
-  <img src="assets/images/cocktail_header_purple.png" alt="Background cocktai image" class="header-image"/>
-  </div>
 
-<div class="button">
-<button onclick="randomDrink()" id="drink-button">CLICK ME <img src="assets/images/drink_loader.gif" alt="Loading random cocktail..."/></button>
+ <div id="no-cocktail-search-entered"></div>
+ <div id="cocktail-search-result"></div>
+
+
+
 </div>
-<section>
-<!-- end -->
+
+<img src="assets/images/cocktail_header_purple.png" alt="Background cocktail image" class="header-image"/>
 
 
-<!-- Random generated drink information all placed within the divs below (button not included) -->
+</section>
+
+
+<!-- Random generated drink information (+button req) all placed within the divs below -->
 <section>
+<div class="button">
+<button onclick="randomDrink()" id="random-drink-button">CLICK ME <img src="assets/images/drink_loader.gif" alt="Loading random cocktail..."/></button>
+</div>
 <div class="container">
  <div class="topCocktails" id="drink-name"></div>
  <div class="topCocktails" id="drink-instructions"></div>
@@ -47,8 +58,7 @@
  </div>
 
 </div>
-<section>
-<!-- End -->
+</section>
 
 
 

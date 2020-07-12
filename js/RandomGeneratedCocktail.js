@@ -2,7 +2,7 @@ const drinkName = document.getElementById('drink-name')
 const ingredientsRequired = document.getElementById('ingredients')
 const howToMake = document.getElementById('drink-instructions')
 const measurementsRequired = document.getElementById('measurements')
-const randomDrinkButton = document.getElementById('drink-button')
+const randomDrinkButton = document.getElementById('random-drink-button')
 
 function randomDrink() {  
 fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
@@ -22,10 +22,10 @@ fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
    howToMake.innerHTML = `<h4>${category}</h4> ${instructions}`;
   
 const AllIngredients = [data.drinks[0].strIngredient1, data.drinks[0].strIngredient2, data.drinks[0].strIngredient3,
-                    data.drinks[0].strIngredient4, data.drinks[0].strIngredient5, data.drinks[0].strIngredient6, 
-                    data.drinks[0].strIngredient7, data.drinks[0].strIngredient8, data.drinks[0].strIngredient9,
-                    data.drinks[0].strIngredient10, data.drinks[0].strIngredient11, data.drinks[0].strIngredient12,
-                    data.drinks[0].strIngredient13, data.drinks[0].strIngredient14, data.drinks[0].strIngredient15]
+                        data.drinks[0].strIngredient4, data.drinks[0].strIngredient5, data.drinks[0].strIngredient6, 
+                        data.drinks[0].strIngredient7, data.drinks[0].strIngredient8, data.drinks[0].strIngredient9,
+                        data.drinks[0].strIngredient10, data.drinks[0].strIngredient11, data.drinks[0].strIngredient12,
+                        data.drinks[0].strIngredient13, data.drinks[0].strIngredient14, data.drinks[0].strIngredient15]
 
 const AllMeasurements = [data.drinks[0].strMeasure1, data.drinks[0].strMeasure2, data.drinks[0].strMeasure3,
                         data.drinks[0].strMeasure4, data.drinks[0].strMeasure5, data.drinks[0].strMeasure6,
@@ -52,24 +52,8 @@ for (j = 0; j < AllMeasurements.length; j++) {
  }
 }
 
-
 })} 
 
 randomDrinkButton.addEventListener('click', randomDrink)
-
-
-// function colorChangeToRed() {
-// var cocktailsList = document.getElementsByClassName("topCocktails")
-// var i;
-// for (i = 0; i < cocktailsList.length; i++) {
-// cocktailsList[i].style.backgroundColor = "red";
-// }}
-
-// function ColorRevertToOriginal() {
-// var cocktailsList = document.getElementsByClassName("topCocktails")
-// var i;
-// for (i = 0; i < cocktailsList.length; i++) {
-// cocktailsList[i].style.backgroundColor = "aqua";
-// }}
 
 

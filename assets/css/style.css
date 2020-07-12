@@ -34,14 +34,16 @@
 
 /* Random cocktail generator button */
 
-.button {
+/* div class which contains the button within it */
+.button { 
     display: flex;
     justify-content: center;
    /* background-color: #ff49be; */
     
 }
 
-#drink-button {
+/* Button to generate random drink using API info */
+#random-drink-button {
     width: 160px;
     padding: 10px;
     margin-top: 8px;
@@ -77,9 +79,5 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* #drink-instructions {
-    background-color: red; 
-    height: 350px;
-    width: 445px;
-} */
+
 
