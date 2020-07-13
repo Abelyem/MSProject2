@@ -2,8 +2,8 @@
 /* -- jQuery here based on lesson 'The GitHub API > Making Promises' */ 
 
 function cocktailInformationHTML(cocktail) {
-return `<h4>${cocktail.drinks[0].strDrink}</h4>
-        <p>${cocktail.drinks[0].strInstructions}</p>`;
+return `<img src="${cocktail.drinks[0].strDrinkThumb}/preview"></img>
+        <div><h4>${cocktail.drinks[0].strDrink}</h4><p>${cocktail.drinks[0].strInstructions}</p></div>`;
 }
 
 function fetchCocktailInformation(event) {
@@ -15,6 +15,7 @@ function fetchCocktailInformation(event) {
     var cocktailSearchEntry = $('#cocktailData').val();
     if (!cocktailSearchEntry) {
         $('#no-cocktail-search-entered').html(`<p class="no-search-text">If you're not sure what to search for - check out the random drink generator below</p>`)
+        $("#cocktail-search-result").html("")
         return;
     }
 
