@@ -51,7 +51,7 @@
 .header-image {
     position: absolute;
     right: 25px;
-    top: 80px;
+    top: 100px;
     padding-bottom: 15px;
 }
 
@@ -76,36 +76,14 @@
     width: 100%;
 }
 
-#cosmo, #mojito, #mai-tai {
-    position: absolute;
-    font-weight: 500;
-    top: 45px;
-    color: black;
+.cocktails-to-try > a {
+    border: pink solid 3px;
+    padding: 50px;
 }
 
-.noDecoration, #mojito:link {
-        text-decoration: none!important;
-
+.cosmo:hover, .mojito:hover, .mai-tai:hover {
+background-color: #c1348f;
 }
-
-#cosmo:hover, #mojito:hover, #mai-tai:hover {
-    color: #c33891;
-}
-
-#cosmo {
-    left: 270px;
-    
-}
-
-#mojito {
-    left: 420px;
-}
-
-#mai-tai {
-    left: 520px;
-}
-
-
 
 /* Random cocktail generator button */
 
@@ -145,8 +123,8 @@
 
 
 .topCocktails:hover {
- color: #ff49be;
- font-weight: 600;
+ color: #1a0613;
+ font-weight: 500;
 }
 
 .nested-grid {

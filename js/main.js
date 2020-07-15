@@ -16,15 +16,13 @@ function fetchCocktailInformation(event) {
     var cocktailSearchEntry = $('#cocktailData').val();
     if (!cocktailSearchEntry) {
         $('#no-cocktail-search-entered').html(`
-        
-        <p class="no-search-text">If you're not sure what to search for - try one of the popular cocktails shown, or use our <a href="#random-drink-button">random drink generator</a></p>
-        
-        <div class="cocktails-to-try">
-        <a href="https://www.bbcgoodfood.com/recipes/cosmopolitan" target="_blank"><img src="assets/images/Cosmo.png" alt="Cosmo cocktail"></a>
-        <a href="https://www.bbcgoodfood.com/recipes/mojito" target="_blank"><img src="assets/images/Mojito.png" alt="Mojito cocktail"></a>
-        <a href="https://www.bbcgoodfood.com/recipes/mai-tai" target="_blank"><img src="assets/images/Mai_Tai.png" alt="Mai tai cocktail"></a>
-        <h6>Click on any image for instructions on how to prepare the cocktail!</h6>
-        </div>
+                
+    <div class="cocktails-to-try">
+      <a href="https://www.bbcgoodfood.com/recipes/cosmopolitan" target="_blank" class="cosmo"><img src="assets/images/Cosmo.png" alt="Cosmo cocktail"></a>
+      <a href="https://www.bbcgoodfood.com/recipes/mojito" target="_blank" class="mojito"><img src="assets/images/Mojito.png" alt="Mojito cocktail"></a>
+      <a href="https://www.bbcgoodfood.com/recipes/mai-tai" target="_blank" class="mai-tai"><img src="assets/images/Mai_Tai.png" alt="Mai tai cocktail"></a>
+      <h6>Popular cocktails to try - click on the image to see what you'll need</h6>
+    </div>
 
         `)
         $("#cocktail-search-result").html("") 
