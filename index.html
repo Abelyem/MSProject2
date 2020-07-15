@@ -30,8 +30,21 @@
 
 <div class="header"> 
 
- <div id="no-cocktail-search-entered"></div>
+ <div id="no-cocktail-search-entered"> 
+ 
+    <h6>Popular cocktails to try - click on the image to see what you'll need</h6>
+
+    <div class="cocktails-to-try">
+    <a href="https://www.bbcgoodfood.com/recipes/cosmopolitan" target="_blank"><img src="assets/images/Cosmo.png" alt="Cosmo cocktail"></a>
+    <a href="https://www.bbcgoodfood.com/recipes/mojito" target="_blank"><img src="assets/images/Mojito.png" alt="Mojito cocktail"></a>
+    <a href="https://www.bbcgoodfood.com/recipes/mai-tai" target="_blank"><img src="assets/images/Mai_Tai.png" alt="Mai tai cocktail"></a>
+    </div>
+
+</div>
  <div id="cocktail-search-result"></div>
+ <div id="suggested-cocktails">
+ </div>
+
 
 
 
@@ -46,7 +59,7 @@
 <!-- Random generated drink information (+button req) all placed within the divs below -->
 <section>
 <div class="button">
-<button onclick="randomDrink()" id="random-drink-button">CLICK ME <img src="assets/images/drink_loader.gif" alt="Loading random cocktail..."/></button>
+<button class="btn-dark" onclick="randomDrink()" id="random-drink-button">Click here and try out a new drink today. <img src="assets/images/drink_loader.gif" alt="Loading random cocktail..."/></button>
 </div>
 <div class="container">
  <div class="topCocktails" id="drink-name"></div>

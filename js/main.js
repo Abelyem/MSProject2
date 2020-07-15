@@ -2,8 +2,9 @@
 /* -- jQuery here based on lesson 'The GitHub API > Making Promises' */ 
 
 function cocktailInformationHTML(cocktail) {
-return `<img src="${cocktail.drinks[0].strDrinkThumb}/preview"></img>
-        <div><h4>${cocktail.drinks[0].strDrink}</h4><p>${cocktail.drinks[0].strInstructions}</p></div>`;
+
+    return `<img class="searched-cocktail-image" src="${cocktail.drinks[0].strDrinkThumb}/preview">
+        <div><h4>${cocktail.drinks[0].strDrink}</h4><p>${cocktail.drinks[0].strInstructions}</p></div>`; 
 }
 
 function fetchCocktailInformation(event) {
@@ -14,8 +15,19 @@ function fetchCocktailInformation(event) {
 
     var cocktailSearchEntry = $('#cocktailData').val();
     if (!cocktailSearchEntry) {
-        $('#no-cocktail-search-entered').html(`<p class="no-search-text">If you're not sure what to search for - check out the random drink generator below</p>`)
-        $("#cocktail-search-result").html("")
+        $('#no-cocktail-search-entered').html(`
+        
+        <p class="no-search-text">If you're not sure what to search for - try one of the popular cocktails shown, or use our <a href="#random-drink-button">random drink generator</a></p>
+        
+        <div class="cocktails-to-try">
+        <a href="https://www.bbcgoodfood.com/recipes/cosmopolitan" target="_blank"><img src="assets/images/Cosmo.png" alt="Cosmo cocktail"></a>
+        <a href="https://www.bbcgoodfood.com/recipes/mojito" target="_blank"><img src="assets/images/Mojito.png" alt="Mojito cocktail"></a>
+        <a href="https://www.bbcgoodfood.com/recipes/mai-tai" target="_blank"><img src="assets/images/Mai_Tai.png" alt="Mai tai cocktail"></a>
+        <h6>Click on any image for instructions on how to prepare the cocktail!</h6>
+        </div>
+
+        `)
+        $("#cocktail-search-result").html("") 
         return;
     }
 

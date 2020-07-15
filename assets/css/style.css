@@ -3,39 +3,55 @@
   box-sizing: border-box;
 }
 
+
 /* header section (*/
 .header {
-    height: 250px;
+    height: 450px;
     margin-bottom: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 2fr;
+    grid-template-rows: 0.3fr 1.5fr;
     width: 65%;
-    background-color: yellow; 
+    /* background-color: yellow;  */
 }
 
-#no-cocktail-search-entered {
-    background-color: coral;
+ #no-cocktail-search-entered {
+    /* background-color: coral; */
+}
+
+#no-cocktail-search-entered > h6 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+ .recommended-cocktails {
+    padding: 5px;
+ }
+
+
+
+
+.no-search-text {
+    text-decoration: none!important;
+    padding-left: 10px;
 }
 
 #cocktail-search-result {
-    background-color: lightblue;
-}
-
-#cocktail-search-result {
+    /* background-color: lightblue; */
     display: grid;
-    grid-template-columns: 0.5fr 2fr;
+    grid-template-columns: 0.4fr 2fr;
+    height: 150px;
 }
 
 
-.header > h2 {
-    padding: 5px 10px;
+.searched-cocktail-image {
+    padding: 7px;
 }
 
 .header-image {
     position: absolute;
-    right: 15px;
-    top: 60px;
+    right: 25px;
+    top: 80px;
     padding-bottom: 15px;
 }
 
@@ -50,6 +66,47 @@
     color: #fff;
 }
 
+
+.cocktails-to-try {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 70px;
+    position:relative;
+    width: 100%;
+}
+
+#cosmo, #mojito, #mai-tai {
+    position: absolute;
+    font-weight: 500;
+    top: 45px;
+    color: black;
+}
+
+.noDecoration, #mojito:link {
+        text-decoration: none!important;
+
+}
+
+#cosmo:hover, #mojito:hover, #mai-tai:hover {
+    color: #c33891;
+}
+
+#cosmo {
+    left: 270px;
+    
+}
+
+#mojito {
+    left: 420px;
+}
+
+#mai-tai {
+    left: 520px;
+}
+
+
+
 /* Random cocktail generator button */
 
 /* div class which contains the button within it */
@@ -62,7 +119,7 @@
 
 /* Button to generate random drink using API info */
 #random-drink-button {
-    width: 160px;
+    width: 260px;
     padding: 10px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -75,7 +132,7 @@
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
   grid-gap: 10px;
-  padding-top: 35px;
+  padding: 35px auto 25px;
   position: relative;
 }
 
@@ -89,7 +146,7 @@
 
 .topCocktails:hover {
  color: #ff49be;
- font-weight: 700;
+ font-weight: 600;
 }
 
 .nested-grid {
@@ -110,3 +167,4 @@
 }
 
 }
+
