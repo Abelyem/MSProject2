@@ -134,18 +134,12 @@ Languages used:
 
 ### Navigation:
 
-<!-- - Home: When clicked returns user to first page where hero-image and quote is visible.
-- Tour: Scrolls down to section2 of the site, and to tour section which shows information on tour dates, and venue.
-- About us: Scrolls smoothly down to correct section3 of the site where band information is shown.
-- Gallery: Scrolls down to section4 of the page - shows gallery images.
+### Three popular cocktail links
 
-### XXXXX
+All three images have their respective href tags which function as planned when clicked on, taking the user to the linked
+site's (https://www.bbcgoodfood.com/) recipe section.
 
-<!-- - All social links work as intended and lead to their respective sites. Test was carried out on each clickable icon 
-  to ensure a new tab is opened each time, as opposed to leading the user off the band website ensuring there are no
-  issues with the target being set as "_blank".   
-
-Hover feature fully functioning with a white colour (#fff) being applied across each social icon when hovered over.-->
+Hover feature also fully functions as can be seen in the image scale being transformed by 1.3 times when hovered over.
 
 ### XXXXX
 
@@ -175,31 +169,24 @@ Hover feature fully functioning with a white colour (#fff) being applied across 
   as a test, error message pops up advising there is an '@' missing.
 - Tested hover feature on subscribe button - working as set, and colour of button changes to purple when hovered over. -->
 
-## Screensize XXXXXX
+## Screensize
 
-<!-- - Hamburger menu applied on screensizes 767px and below - this allows navigation to not clutter the header on smaller
-  devices.
+Navbar text (next to search bar) is only visible on large sized screens (or above) and hidden on all smaller screens.
+The placeholder text states 'Search for cocktails here' and so the website can function without the navbar text being
+available.
 
-- A problem encounted on smaller devices was a horizontal scroll which wasn't intentially applied.
-
-- Video under 'About-us' section was too small when being viewed on smaller devices (less than 667px) 
-  and so media query was applied to increase width of video when viewing on smaller devices. -->
+The background cocktail image (cocktail_header_purple) is hidden on all screens smaller than medium.
+The three popular cocktails have their display set as block so they'd appear individually on smaller sized screens.
 
 ## Deployment
 
-<!-- The option to create a new repository was provided when logging in to Github - option can also be found on the top 
-right hand corner of the page ('+' symbol). After naming the file, and opening said file on gitpod, I was then able
-to create new files and folders to hold the different information required (e.g images folder, index.html file, css 
-folder + file etc).
+File deployed on Gitpages via Github.
+From settings, scroll down to Github pages section and select the master branch as source to enable github pages to run.
 
-The file was deployed via Gitpages. On Github, I first went to settings then down to Github pages section and selected
-the master branch as the source to enable Github pages to run.
+To run file locally, you can (once file is open via gitpod) search the following within the terminal:
+python3 -m http.server
 
-In order to run the file locally, you can open the file via Gitpod, then in the terminal search the following command:
-'python3 -m http.server' - clicking enter following that command will open a new pop-up on the terminal which gives 
-the user the option of 'Make Public', 'Open Preview', or 'Open Browser' - you can click 'Open Browser' to run the 
-file locally. -->
-
+A pop up will appear with three options, of which you click 'Open Browser' to run the file.
 
 ## Credits
 

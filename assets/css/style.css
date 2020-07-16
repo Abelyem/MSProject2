@@ -12,7 +12,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 0.3fr 1.5fr;
     width: 65%;
-    /* background-color: yellow;  */
 }
 
 #no-cocktail-search-entered > h6 {
@@ -59,21 +58,27 @@
 
 
 .cocktails-to-try {
+    margin: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 70px;
+    padding: 10px;
     position:relative;
     width: 100%;
 }
 
 .cocktails-to-try > a {
-    border: pink solid 3px;
     padding: 50px;
 }
 
+.cocktails-to-try > h6 {
+    padding-top: 30px;
+}
+
+
 .cosmo:hover, .mojito:hover, .mai-tai:hover {
-background-color: #c1348f;
+    /* background-color: #c1348f; */
+    transform: scale(1.3);
 }
 
 /* Random cocktail generator button */
@@ -121,13 +126,6 @@ background-color: #c1348f;
 }
 
 
-
-/* @media screen and (max-width: 1190px) {
-.cocktails-to-try {
-    display: block;
-}
-
-} */
 
 @media screen and (max-width: 1190px) {
 
