@@ -1,9 +1,9 @@
-# User Centric Frontend Development Milestone Project
+# Interactive Frontend Development Milestone
 
 I've created a website which makes use of an API providing information on different (both alcoholic and non-alcoholic)
-drinks. The aim of the website is to allow any user to click on 1 single button, and have that button generate a newd
-drink for them to try. The provided results would include the name and image of the drink, as well as instructions, ingredients, and measurements
-required to put the drink together.
+drinks. The aim of the website is to allow any user to click on 1 single button, and have that button generate a new
+drink for them to try. The provided results would include the name and image of the drink, as well as instructions, 
+ingredients, and measurements required to put the drink together.
 
 In addition to this, the website includes a search function through which any user can search and get information on any
 drink which is included within the TheCocktailDB API.
@@ -23,20 +23,20 @@ The aim of the website is to allow any user to - with one click - get a randomly
 at home, as well as be able to search for and get information on any cocktail.
 
 I believe the website does this well in the way its set up, as at first instance and on the top right handside of the 
-website a search button is provided to allow the user to search for any drink.
+website a search button is provided to allow the user to search for any drink. 
 
-<!-- The aim is as mentioned above, and the website does this well in the way it has been set up. 
+If no drinks are searched for, 3 popular cocktails are presented (with links on how to make these), and should these
+options not be enough, then the user is presented with the option to randomly generate/suggest a new drink.
 
-As a fan of this band, I want to know where they are touring, so that I can purchase tickets to see them live.  
+As a visitor of the website, I want to search for and get information on any cocktail drink.
 
-As someone who has only heard of this band recently, I want to know more about their music, so that I 
-can decide if they are a band I want to follow.
+As someone who may be shielding/not comfortable with visting bars, I want to be able to experiment and try new 
+drinks without having to look through a 'menu' or leave my house.
 
-As someone who has never heard their music, I want to know what genre they fall under, so I can check to see if they 
-are a band I could get into.  
+As someone who is not sure what cocktails are nice, I want to be able to see what the popular cocktails are and 
+information on how to make these at home.
 
-As a new fan of the band, I want to know how I can keep up to date with what the band is doing without having to visit
-the website every day.
+<!-- 
 
 [Home page + Header - wireframe](https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Section-1.png)
 
@@ -141,7 +141,7 @@ if intertested in doing so. -->
 All navigation links tested from different starting points (e.g clicked 'Tour' from 'Gallery'/ clicked 
 on 'Home' from 'About-us' section etc) to ensure scroll feature works as intended from any and every starting point. -->
 
-### Social links
+### XXXXX
 
 <!-- - All social links work as intended and lead to their respective sites. Test was carried out on each clickable icon 
   to ensure a new tab is opened each time, as opposed to leading the user off the band website ensuring there are no
@@ -149,7 +149,7 @@ on 'Home' from 'About-us' section etc) to ensure scroll feature works as intende
 
 Hover feature fully functioning with a white colour (#fff) being applied across each social icon when hovered over.-->
 
-### Tour section
+### XXXXX
 
 <!-- - All 'Ticket' links highlighted work as clickable links leading to the website from which tickets can be purchased.
   Ticket links all open in a new tab, and do not steer user off from the band website.
@@ -159,7 +159,7 @@ Hover feature fully functioning with a white colour (#fff) being applied across 
   working as intended, and sized so that any increase in image size does not cover any text (e.g tour-dates inforamtion,
   or the title for the next section (About-us)). -->
 
-### About-us section
+### XXXXXX
 
 <!-- - Song name/album all have amended colours (purple) and font-weight increases when hovered over to make it clear all 
   are cliakable links. As all other links, when clicked they are opened in a new tab as to not lead away from the 
@@ -170,14 +170,14 @@ Hover feature fully functioning with a white colour (#fff) being applied across 
   this, and prevents confusion (e.g music does not start to play when user is on home page and not yet reached
   'About-us' section of the site). -->
 
-### section 5 (email subscription for more band updates section)
+### XXXXX
 
 <!-- - Email placeholder has text decoration which shows a blue colour when selected.
 - Email address is set as 'required' in that section, unable to submit without including '@' - when attempting to do this
   as a test, error message pops up advising there is an '@' missing.
 - Tested hover feature on subscribe button - working as set, and colour of button changes to purple when hovered over. -->
 
-## Screensize
+## Screensize XXXXXX
 
 <!-- - Hamburger menu applied on screensizes 767px and below - this allows navigation to not clutter the header on smaller
   devices.
