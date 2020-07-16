@@ -100,34 +100,6 @@ site's (https://www.bbcgoodfood.com/) recipe section.
 
 Hover feature also fully functions as can be seen in the image scale being transformed by 1.3 times when hovered over.
 
-### XXXXX
-
-<!-- - All 'Ticket' links highlighted work as clickable links leading to the website from which tickets can be purchased.
-  Ticket links all open in a new tab, and do not steer user off from the band website.
-  Hover feature functioning to show a change in colour when any ticket clickable link is hovered over.
-
-- Image below tour section has a transform tag applied which increases size of image when hovered over. This feature
-  working as intended, and sized so that any increase in image size does not cover any text (e.g tour-dates inforamtion,
-  or the title for the next section (About-us)). -->
-
-### XXXXXX
-
-<!-- - Song name/album all have amended colours (purple) and font-weight increases when hovered over to make it clear all 
-  are cliakable links. As all other links, when clicked they are opened in a new tab as to not lead away from the 
-  website.
-
-- Video - song placed below About-us section. Video works without any issues - can also continue to scroll the page
-  to the next section without any interruption in video. Video settings not on autoplay - allows user to action
-  this, and prevents confusion (e.g music does not start to play when user is on home page and not yet reached
-  'About-us' section of the site). -->
-
-### XXXXX
-
-<!-- - Email placeholder has text decoration which shows a blue colour when selected.
-- Email address is set as 'required' in that section, unable to submit without including '@' - when attempting to do this
-  as a test, error message pops up advising there is an '@' missing.
-- Tested hover feature on subscribe button - working as set, and colour of button changes to purple when hovered over. -->
-
 ## Screensize
 
 Navbar text (next to search bar) is only visible on large sized screens (or above) and hidden on all smaller screens.
