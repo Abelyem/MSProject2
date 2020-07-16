@@ -49,72 +49,31 @@ The above wireframe (wireframeScreenshot2) shows the page after a search has bee
 and some text - this is information provided on the searched drink.
 
 The second half of the page shows an image followed up with 3 sections of information (name/instructions + ingredients 
-+ measurements of the randomly generated cocktail.)
+and measurements of the randomly generated cocktail.)
 
 ## Features 
 
 
  ### Existing Features
-<!-- - Smooth scrolling applied to html - allows page to travel smoothly when any of the navigation options are 
- selected (e.g Tour / About-us / Gallery), as opposed to jumping to the specific section selected.
 
-- Header (fixed top)
+ - Header (fixed top)
+   - Has a lighter background colour than white, but contrast can be seen.
+   - Input box has placeholder text to make it clear it is a search box.
+   - Search button in purple with a white background, background fills white space with purple
+     and text colour changes to white when hovered over.
 
-   - Has a darker background compared to hero-image which allows the header to stand out, and all 
-     information/links provided within to be clearly visible as font-colour is of a lighter colour.
+ - 3 popular cocktails images
+   - Scale transforms when hovered over (to indicate they are interactive)
+   - Text below images also confirms cocktail images can be clicked on for more information on what they are 
+     and how you can make them.
 
-   - Band name clearly visible, and also allows any visitor to the site easy navigation through the 
-     site as access to all sections is always easily available (removes need to press ‘back’ or do any 
-     additional work to visit a separate section of the site)
+ - Random drink generator section
+   - What the function of the button is, is well described within the button itself
+   - Button has dark background and white text so it is clear to read - button also has within it a spinning gif
 
-   - Social links constantly available for any new visitors to find out more, or existing members to visit 
-     the band’s social media/go directly to stream their music via spotify/youtube. Data target set to 
-     “_blank” on social links to ensure anyone visiting the site can remain there whilst opening up different 
-     links for the bands social media/youtube/spotify. 
-  
-   - Highlight when hovered - both the navigational links, and the social media links within the header have 
-     the hover feature applied which allows them to become a slightly lighter colour when hovered over to indicate
-     to any user that they are clickable links. 
-
-- Hero-image and Quote - the image of the microphone and quote within the hero-image quickly shows the website 
-   is for a band (for those who are visiting for the first time/have not heard of the band before). For existing 
-   fans (and in general for all visitors) the page is kept simple, and clean - not cluttered with information, 
-   allows focus to remain on the header for navigation through the site.
-
-- Tour section
-   - Ticket links given a different colour (purple) to the rest of the text to indicate they are clickable - 
-     also has the same hover feature allowing the link to change colour when hovered over, once again indicating
-     that they are clickable links.
-
-   - Date, venue and city all clearly shown in table format . Easy to identify when and where the band will be 
-     performing in the future. 
-
-- About-us section
-   - Image shown directly below header in black and white / faces of band members not clear - image used to create 
-     some mystery around the band members.
-
-   - Information on the band provided directly below the image mentioned above. Also mentions type of music the band 
-     makes, as well as links to the band’s first hit record, first album, and most recent album (to provide a general 
-     overview as to how the band entered and became well known within the music industry, in addition to how they 
-     developed within it (by sharing a link of their most recent album)).  
-
-   - The band’s song and albums referenced  are given the same colour as the ‘Ticket’ links in the ‘Tour’ section of 
-     the site, there is also a change of font-weight when hovered over. As this colour has been previously used to 
-     indicate that text is a clickable link, this should indicate the same once again - font-weight would also go on
-     to further point this out.
-
-   - Video link provided directly below the information on the band - if none of the links were clicked, any user who
-     has remained on the website will be able to listen to the band’s music whilst remaining on the site/continuing to
-     scroll.
-
-- Gallery section - A few images of the band whilst in action (either performing or preparing a set). 
-
-- News section - allows fans to subscribe with their email address in order to receive any news/updates on the band
-    (including but not permitted to future tour dates). The ‘required’ tag also added to the input tag for the email 
-    address section to ensure email entered correctly.
-
-- Footer - signals end of page, and also features band name and copyrights  -->
-
+ - Information generated from button click
+   - Shown in 3 parts - 1st part has name and image of cocktail, second part has instructions, and the third contains
+     the measurements and ingredients required. 
 
  ### Features left to implement 
 
