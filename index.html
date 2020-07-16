@@ -12,11 +12,11 @@
 <body>
 
 <!-- Header section -->
-<section>
+<section id="section1">
 
 <!-- Nav bar copied from Bootstrap (amendments made (change of colour/positioning)) -->
 <nav class="navbar navbar-light bg-light justify-content-center">
-  <a class="navbar-brand">Search for, and prepare high quality cocktails to enjoy at home!</a>
+  <a class="navbar-brand d-none d-lg-block">Search for, and prepare high quality cocktails to enjoy at home!</a>
   <form class="form-inline">
    
     <input class="form-control mr-sm-2" type="search" placeholder="Search for cocktails here" aria-label="Search" 
@@ -50,10 +50,10 @@
 </section>
 
 
-<img src="assets/images/cocktail_header_purple.png" alt="Background cocktail image" class="header-image"/>
+<img src="assets/images/cocktail_header_purple.png" alt="Background cocktail image" class="header-image d-none d-md-block"/>
 
 <!-- Random generated drink information (+button req) all placed within the divs below -->
-<section>
+<section id="section2">
 <div class="button">
 <button class="btn-dark" onclick="randomDrink()" id="random-drink-button">Click here and try out a new randomly generated drink! <img src="assets/images/drink_loader.gif" alt="Loading random cocktail..."/></button>
 </div>
@@ -69,6 +69,7 @@
 </div>
 </section>
 
+<footer> </footer>
 
 <script type="text/javascript" src="js/randomGeneratedCocktail.js"></script>
 <script type="text/javascript" src="js/main.js"></script>

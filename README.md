@@ -36,19 +36,20 @@ drinks without having to look through a 'menu' or leave my house.
 As someone who is not sure what cocktails are nice, I want to be able to see what the popular cocktails are and 
 information on how to make these at home.
 
-<!-- 
+[Landing page - prior to any searches made / random drink generator button clicked)](https://github.com/Abelyem/MSProject2/blob/master/assets/images/wireframes/wireframeScreenshot1.png)
 
-[Home page + Header - wireframe](https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Section-1.png)
+When no searches are made, the page is presented as the image (wireframeScreenshot1). This allows any person visiting
+the website the option of searching for a drink of their choice, clicking on the one of the popular cocktails 
+presented, or clicking on the button named "Click here to try out a new randomly generated drink!"
 
-[Tour page - wireframe](https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Tour-Section2.png)
+[Landing page - after search has been made / random drink generator button clicked](https://github.com/Abelyem/MSProject2/blob/master/assets/images/wireframes/wireframeScreenshot2.png)
 
-[About-us page - wireframe](https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/About-us-Section-3.png)
+The above wireframe (wireframeScreenshot2) shows the page after a search has been made, and the button named
+"Click here to try out a new randomly generated drink!" has been clicked. The top half of the wireframe shows an image
+and some text - this is information provided on the searched drink.
 
-[Gallery - wireframe](https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Gallery-section-4.png)
-
-Subscribe for news and updates section - Not initially planned/No wireframe made for this however this was added to the
-website to ensure any potential user has the ability to keep up to date, and follow the band with minimal effort 
-if intertested in doing so. -->
+The second half of the page shows an image followed up with 3 sections of information (name/instructions + ingredients 
++ measurements of the randomly generated cocktail.)
 
 ## Features 
 
@@ -116,18 +117,18 @@ if intertested in doing so. -->
 
 
  ### Features left to implement 
-<!-- - Subscribe to ‘news/updates’ section shown below ‘About-us’ section - may change background colour of that section 
-  so it stands out and is not hidden/missed due to the video placed directly above the subscribe option -->
 
+-
 
 ## Technologies Used
 
-<!-- - Languages used:
+Languages used:
    - HTML
    - CSS
+   - Javascript
 
-- Balsamiq used to create the wireframe for the project: https://balsamiq.com/ 
-- Bootstrap used to create mobile friendly navigation links: https://getbootstrap.com/  -->
+   - Bootstrap used to create input box and search button for navigation (https://getbootstrap.com/)
+   - Wireframe created on https://www.mockflow.com/
 
 ## Testing
 
@@ -137,9 +138,6 @@ if intertested in doing so. -->
 - Tour: Scrolls down to section2 of the site, and to tour section which shows information on tour dates, and venue.
 - About us: Scrolls smoothly down to correct section3 of the site where band information is shown.
 - Gallery: Scrolls down to section4 of the page - shows gallery images.
-
-All navigation links tested from different starting points (e.g clicked 'Tour' from 'Gallery'/ clicked 
-on 'Home' from 'About-us' section etc) to ensure scroll feature works as intended from any and every starting point. -->
 
 ### XXXXX
 
@@ -207,21 +205,29 @@ file locally. -->
 
 ### Content
 
-<!-- - All content on the site written by me. 
+All content on the site written by me. 
 
-- Information on the music genre for bands Red Hot Chilli Peppers and Linkin Park from:
-  - https://en.wikipedia.org/wiki/Red_Hot_Chili_Peppers
-  - https://en.wikipedia.org/wiki/Linkin_Park -->
+API information (on search / on click) from:
+https://www.thecocktaildb.com/api.php
+
 
 ### Media
- <!-- - https://burst.shopify.com/ 
- - https://unsplash.com 
- - https://www.pexels.com/   -->
+
+https://emojipedia.org/ 
+https://unsplash.com
+https://www.google.co.uk/
 
 ### Acknowledgement 
 
- <!-- I received inspiration from the following sites:
- 
- - https://francescamusic.com/
- - http://www.decemberists.com/
- - http://www.070shake.net/  -->
+Provided by mentor:
+https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+API site: 
+https://www.thecocktaildb.com/api.php
+
+Accessing API information:
+https://idratherbewriting.com/learnapidoc/docapis_access_json_values.html
+
+Information on popular cocktails:
+https://www.bbcgoodfood.com

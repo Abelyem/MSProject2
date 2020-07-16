@@ -15,10 +15,6 @@
     /* background-color: yellow;  */
 }
 
- #no-cocktail-search-entered {
-    /* background-color: coral; */
-}
-
 #no-cocktail-search-entered > h6 {
     text-align: center;
     padding-top: 30px;
@@ -28,21 +24,16 @@
     padding: 5px;
  }
 
-
-
-
 .no-search-text {
     text-decoration: none!important;
     padding-left: 10px;
 }
 
 #cocktail-search-result {
-    /* background-color: lightblue; */
     display: grid;
     grid-template-columns: 0.4fr 2fr;
     height: 150px;
 }
-
 
 .searched-cocktail-image {
     padding: 7px;
@@ -91,16 +82,13 @@ background-color: #c1348f;
 .button { 
     display: flex;
     justify-content: center;
-   /* background-color: #ff49be; */
-    
 }
 
 /* Button to generate random drink using API info */
 #random-drink-button {
-    width: 260px;
+    width: 450px;
     padding: 10px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin: 5px;
 }
 
 
@@ -110,7 +98,7 @@ background-color: #c1348f;
   display: grid;
   grid-template-columns: 0.5fr 1fr 1fr;
   grid-gap: 10px;
-  padding: 35px auto 25px;
+  padding: 35px 0;
   position: relative;
 }
 
@@ -134,15 +122,25 @@ background-color: #c1348f;
 
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 1190px) {
+.cocktails-to-try {
+    display: block;
+}
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  padding-top: 35px;
-  position: relative;
+} */
+
+@media screen and (max-width: 1190px) {
+
+.cocktails-to-try {
+    display: block;
+}
+
+.cocktails-to-try > a {
+    border: none;
 }
 
 }
+
+
+
 
