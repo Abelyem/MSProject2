@@ -77,7 +77,7 @@
 }
 
 .cocktails-to-try > h6 {
-    padding-top: 30px;
+    padding: 35px 0;
     font-family: 'Charm', cursive;
     font-size: 20px;
     font-weight: 500;
@@ -137,21 +137,5 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-
-
-
-@media screen and (max-width: 1190px) {
-
-.cocktails-to-try {
-    display: block;
-}
-
-.cocktails-to-try > a {
-    border: none;
-}
-
-}
-
-
 
 
